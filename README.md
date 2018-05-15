@@ -18,4 +18,4 @@
 
 ![image](https://github.com/alice-bj/chouti/blob/master/images/res-2.png)
 
-![image](https://github.com/alice-bj/chouti/blob/master/images/res-2.png)
+![image](https://github.com/alice-bj/chouti/blob/master/images/res-3.png)
