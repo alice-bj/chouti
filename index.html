@@ -236,6 +236,95 @@
         </div>
     </div>
 
+    <!--发布的模态窗-->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1 myModalLabel2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content clearfix">
+
+                <!--发布页面-->
+                <div class="my-publish">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel3">分享新发现</h4>
+                    </div>
+
+                    <div class="modal-body my-modal-body">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" class="active"><a href="#">链接</a></li>
+                            <li role="presentation"><a href="#">文字</a></li>
+                            <li role="presentation"><a href="#">图片</a></li>
+                        </ul>
+
+                        <!--链接-->
+                        <div class="my-link">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputUrl">添加链接</label>
+                                    <input type="text" class="form-control" id="exampleInputUrl" placeholder="http://">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputTitle">标题</label>
+                                    <input type="text" class="form-control" id="exampleInputTitle">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputTextarea">添加摘要（选填）</label>
+                                    <textarea class="form-control" rows="3" id="exampleInputTextarea"></textarea>
+                                </div>
+                                <div class="form-group my-form-a">
+                                    <small>发布到：</small>
+                                    <a href="#" class="btn btn-default btn-sm active" role="button">42区</a>
+                                    <a href="#" class="btn btn-default btn-sm" role="button">段子</a>
+                                    <a href="#" class="btn btn-default btn-sm" role="button">图片</a>
+                                    <a href="#" class="btn btn-default btn-sm" role="button">挨踢1024</a>
+                                    <a href="#" class="btn btn-default btn-sm" role="button">你问我答</a>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!--文字-->
+                        <div class="my-text">
+                            <form>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" id="exampleInputTextarea1" placeholder="发布段子"></textarea>
+                                </div>
+                                <div class="form-group my-form-a">
+                                    <small>发布到：</small>
+                                    <a href="#" class="btn btn-default btn-sm active" role="button">段子</a>
+                                    <a href="#" class="btn btn-default btn-sm" role="button">你问我答</a>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!--图片-->
+                        <div class="my-photo">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">添加图片</label>
+                                    <input type="file" id="exampleInputFile">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" id="exampleInputTextarea2" placeholder="发布段子"></textarea>
+                                </div>
+                                <div class="form-group my-form-a">
+                                    <small>发布到：</small>
+                                    <a href="#" class="btn btn-default btn-sm active" role="button">图片</a>
+                                    <a href="#" class="btn btn-default btn-sm" role="button">你问我答</a>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">清空</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">发布</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <!--中心内容-->
     <div class="container my-container">
         <div class="row">
@@ -253,7 +342,7 @@
                         <li><a href="#">24小时</a></li>
                         <li><a href="#">3天</a></li>
                     </ul>
-                    <button class="btn btn-default btn-success"><span class="glyphicon glyphicon-plus-sign"></span><span>发布</span></button>
+                    <button class="btn btn-default btn-success" onclick="publish()"><span class="glyphicon glyphicon-plus-sign"></span><span>发布</span></button>
                 </div>
 
                 <!--内容1-->
@@ -741,5 +830,3 @@
     <script src="./js/index.js"></script>
 
 </html>
-
-

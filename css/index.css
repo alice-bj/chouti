@@ -108,3 +108,4 @@ body { background-color: #ededed; }
 .move-top{ display: none; position:fixed; z-index: 3; background: url("../images/move_top.png") no-repeat 0 0;width: 40px;
     height: 40px;bottom: 30px;right: 100px; cursor: pointer;}
 .move-top:hover{background: url("../images/move_top.png") no-repeat 0 -40px;}
+.my-publish .my-text,.my-photo{display: none;}
