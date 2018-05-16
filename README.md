@@ -14,8 +14,8 @@
 1. 点赞，私藏，评论的追加列表。
 1. 回到顶部。
 
-![image](https://images2018.cnblogs.com/blog/1318434/201805/1318434-20180515232337059-42104925.png)
+![image](https://github.com/alice-bj/chouti/blob/master/images/res-1.png)
 
-![image](https://images2018.cnblogs.com/blog/1318434/201805/1318434-20180515232615526-435148333.png)
+![image](https://github.com/alice-bj/chouti/blob/master/images/res-2.png)
 
-![image](https://images2018.cnblogs.com/blog/1318434/201805/1318434-20180515232712165-608944783.png)
+![image](https://github.com/alice-bj/chouti/blob/master/images/res-3.png)
